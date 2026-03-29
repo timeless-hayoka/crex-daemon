@@ -1,7 +1,8 @@
-# Gitignore for Crex Daemon
 venv/
-node_modules/
-chroma_memory/
 __pycache__/
-daemon.log
+*.pyc
+*.pyo
+chroma_memory/
+.env
 *.log
+.DS_Store
